@@ -1,0 +1,29 @@
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: -16px;
+}
+
+.filter {
+    margin: 0 5px;
+    padding: 8px 20px;
+    background: $c-white;
+    border: 1px solid $c-accent;
+    border-radius: 18px;
+    color: $c-accent;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    mix-blend-mode: color;
+    cursor: pointer;
+    transition: background-color .2s ease, color .2s ease;
+    &:hover {
+        background-color: $c-accent;
+        color: $c-white;
+    }
+    &:focus {
+        outline: 0;
+    }
+}

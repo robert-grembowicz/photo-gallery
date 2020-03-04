@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack Project</title>
+    <link rel="stylesheet" href="style.bundle.css">
+</head>
+<body>
+    <div class="section__column">
+        <header class="header">
+            <h1 class="header__text">Photo Gallery</h1>
+        </header>
+        <div class="filters">
+            <button class="filter" data-page="">show all</button>
+            <button class="filter" data-page="unsplash">unsplash</button>
+            <button class="filter" data-page="littlevisuals">littlevisuals</button>
+            <button class="filter" data-page="travelcoffeebook">travelcoffebook</button>
+            <button class="filter" data-page="jaymantri">jaymantri</button>
+        </div>
+        <div class="wrapper gallery-hld js-show-img"></div>
+        <div class="wrapper gallery--button">
+            <span class="gallery--button__big js-show-more invisible">show more</span>
+        </div>
+    </div>
+    <script src="main.bundle.js"></script>
+</body>
+</html>
